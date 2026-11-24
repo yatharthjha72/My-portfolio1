@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(239, 239, 202);
+    text-align:center;
+}
+
+.body1 {
+    padding:60px
+    
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 16px;
+  margin: -60px -60px 48px -60px;
+  padding: 16px 60px;
+  background-color: rgba(52, 146, 52, 0.5);
+  border: none;
+  border-radius: 0;
+  
+}
+
+.skill-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-container i{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+footer{
+    display: flex;
+    background-color: rgba(17, 70, 17, 0.5);
+}
+
+footer p{
+    font-size: 10px;
+}
+
+
+
+
+ul a{
+    text-decoration: none;
+    border: 2px solid;
+    background-color:rgba(52, 146, 52, 0.5) ;
+    color: rgb(239, 239, 202);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+ul a:hover{
+    background-color: rgb(52, 146, 52);
+    transition: 0.5s;
+}
+
+button {
+    background-color:whitesmoke;
+}
+
+h1{
+    color:rgb(52, 146, 52);
+    font-size:45px;
+    font-family:monospace;
+}
+
+nav ul {
+    list-style:none;
+    display:flex;
+    gap:20px;
+    padding:0;
+    margin:0;
+}
+
+p { 
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #000000;
+  max-width: 800px;
+  font-family:monospace;
+  line-height:25px;
+  margin:auto;
+  text-align:center
+
+}
+
+.email {
+    font-size:22px;
+    padding:30px 0px 5px 0px;
+}
+
+h2 {
+    font-family:monospace;
+    font-size:30px;
+    color:rgb(52, 146, 52);
+}
+
+.closer {
+    padding:100px
+}
+
+h3 {
+    font-family:monospace;
+    font-size:30px;
+    color:rgb(52, 146, 52);
+}
+
+h4 {
+    font-size:20px;
+    color:rgb(52, 146, 52);
+    font-family:monospace;
+}
+
+a {
+    color:rgb(22, 172, 30)
+
+}
+
+.skills-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+        @media(width > 600px) {
+        font-size:75px;
+    }
+    
+}
+
+.pp {
+    font-family:cursive;
+}
+
+.portf {
+    line-height:10px
+}
+
+.head {
+    padding:20px
+}
+.gap {
+    padding:15px; 
+}
+.gap2 {
+    padding:40px 0px 2px 0px
+}
+.om {
+    padding:70px 0px 1px 0px
+}
+
+footer {
+    list-style:none;
+    display:flex;
+    
+    font-size:15px;
+    
+
+}
